@@ -1,0 +1,16 @@
+name: youtube_url_resolver
+description: A Dart server app to get youtube video urls powered by youtube_explode_dart
+version: 1.0.0
+
+environment:
+  sdk: ^3.2.4
+
+dependencies:
+  args: ^2.4.0
+  shelf: ^1.4.0
+  shelf_cors_headers: ^0.1.5
+  shelf_router: ^1.1.0
+  youtube_explode_dart: ^2.1.0
+
+dev_dependencies:
+  lints: ^2.1.0
